@@ -1,0 +1,19 @@
+{
+  "_virtualApp": {
+    "router": [
+      {
+        "module": "custom-errors",
+        "options": {
+          "errors": {
+            "500": "index.html",
+            "404": "index.html",
+            "401": "index.html"
+          }
+        }
+      },
+      {
+        "module": "webpage"
+      }
+    ]
+  }
+}
